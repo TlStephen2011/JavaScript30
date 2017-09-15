@@ -22,13 +22,13 @@
 
   <div class='rgbcontrols'>
     <label for="red" id="redlabel">Red:</label>
-    <input id="red" type="range" name="redColor" min="0" max="255" value="0">
+    <input id="red" type="range" name="redColor" min="0" max="255" value="255">
 
     <label for="green" id="greenlabel">Green:</label>
-    <input id="green" type="range" name="greenColor" min="0" max="255" value="0">
+    <input id="green" type="range" name="greenColor" min="0" max="255" value="255">
 
     <label for="blue" id="bluelabel">Blue:</label>
-    <input id="blue" type="range" name="blueColor" min="0" max="255" value="0">
+    <input id="blue" type="range" name="blueColor" min="0" max="255" value="255">
 
   </div>
 
@@ -39,9 +39,9 @@
       --base: red;
       --spacing: 10px;
       --blur: 0px;
-      --red: 0;
-      --blue: 0;
-      --green: 0;
+      --red: 255;
+      --blue: 255;
+      --green: 255;
     }
 
     img {
@@ -71,8 +71,8 @@
 
     body {
       text-align: center;
-      background: rgba(187, 132, 169, 0.8);
-      color: black;
+      background: rgba(10, 74, 94, 0.86);
+      color: white;
       font-family: 'helvetica neue', sans-serif;
       font-weight: 100;
       font-size: 50px;
